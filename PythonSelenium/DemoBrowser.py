@@ -4,7 +4,7 @@ from selenium.webdriver.chrome.service import Service
 
 print("Starting Driver")
 
-service_obj = Service(r"C:\chromedriver-win64\chromedriver.exe")
+service_obj = Service(r"C:\Users\320335045\Documents\chromedriver-win64\chromedriver.exe") #after configing from philips lap
 
 driver = webdriver.Chrome(service=service_obj)
 
